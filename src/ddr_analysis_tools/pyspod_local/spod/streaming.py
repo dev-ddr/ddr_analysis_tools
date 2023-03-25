@@ -5,8 +5,9 @@ import os
 import time
 import numpy as np
 from numpy import linalg as la
-import pyspod.utils.parallel as utils_par
-from pyspod.spod.base import Base
+
+from ..utils import parallel as utils_par
+from base import Base
 
 
 

@@ -9,8 +9,8 @@ import warnings
 import numpy as np
 
 # Import custom Python packages
-import pyspod.utils.parallel as utils_par
-import pyspod.utils.postproc as post
+from ..utils import parallel as utils_par
+from ..utils import postproc as post
 CWD = os.getcwd()
 
 

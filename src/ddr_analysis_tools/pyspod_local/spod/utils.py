@@ -11,8 +11,8 @@ import numpy as np
 import scipy.io.matlab as siom
 
 # Import custom Python packages
-import pyspod.utils.parallel as utils_par
-import pyspod.utils.postproc as post
+from ..utils import parallel as utils_par
+from ..utils import postproc as post
 CWD = os.getcwd()
 B2GB = 9.313225746154785e-10
 

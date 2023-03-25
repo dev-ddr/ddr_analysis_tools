@@ -2,7 +2,7 @@
 
 # import standard python packages
 import numpy as np
-import pyspod.utils.parallel as utils_par
+from . import parallel as utils_par
 
 
 def geo_trapz_2D(x1_dim, x2_dim, n_vars, **kwargs):

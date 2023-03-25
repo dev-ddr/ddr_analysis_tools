@@ -14,8 +14,8 @@ import scipy
 import numpy as np
 
 # Import custom Python packages
-from pyspod.pod.base import Base
-import pyspod.utils.parallel as utils_par
+from base import Base
+from ..utils import parallel as utils_par
 BYTE_TO_GB = 9.3132257461548e-10
 
 

@@ -18,11 +18,11 @@ import scipy.special as sc
 from scipy.linalg import toeplitz
 
 # Import custom Python packages
-import pyspod.spod.utils as utils_spod
-import pyspod.utils.parallel as utils_par
-import pyspod.utils.io       as utils_io
-import pyspod.utils.weights  as utils_weights
-import pyspod.utils.postproc as post
+from . import utils as utils_spod
+from ..utils import parallel as utils_par
+from ..utils import io as utils_io
+from ..utils import weights as utils_weights
+from ..utils import postproc as post
 
 # Current file path
 CWD = os.getcwd()
