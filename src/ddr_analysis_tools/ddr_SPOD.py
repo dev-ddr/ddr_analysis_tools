@@ -8,14 +8,9 @@ import yaml
 
 from typing import Optional
 
-# adding parent directory filepath to sys.path. Because PySPOD module import its own files.
-# so path to that file is required to be added.
-sys.path.insert(0,os.path.dirname(__file__))
-
-
-from .pyspod.spod.standard import Standard as spod_standard
-from .pyspod.spod import utils as utils_spod
-from .pyspod.utils import postproc as post
+from pyspod.spod.standard import Standard as spod_standard
+from pyspod.spod import utils as utils_spod
+from pyspod.utils import postproc as post
 
 
 
