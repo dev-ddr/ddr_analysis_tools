@@ -15,9 +15,14 @@ with open('README.md') as readme_file:
 
 
 requirements = ["numpy",
-                "pandas",
                 "matplotlib",
-                "pyspod",
+                "psutil",
+                "tqdm",
+                "scipy",
+                "h5py",
+                "netcdf4",
+                "xarray",
+                "pyyaml"
                 ]
 
 setup_requirements = []

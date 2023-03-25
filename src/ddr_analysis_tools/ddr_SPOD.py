@@ -8,9 +8,9 @@ import yaml
 
 from typing import Optional
 
-from pyspod.spod.standard import Standard as spod_standard
-from pyspod.spod import utils as utils_spod
-from pyspod.utils import postproc as post
+from .pyspod_local.spod.standard import Standard as spod_standard
+from .pyspod_local.spod import utils as utils_spod
+from .pyspod_local.utils import postproc as post
 
 
 
