@@ -7,7 +7,7 @@ import numpy as np
 from numpy import linalg as la
 
 from ..utils import parallel as utils_par
-from base import Base
+from .base import Base
 
 
 

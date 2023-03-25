@@ -1,2 +1,2 @@
-version = "0.0.5"
+version = "0.0.7"
 __version__ = version

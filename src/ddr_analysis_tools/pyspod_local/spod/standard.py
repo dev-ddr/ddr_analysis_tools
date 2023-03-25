@@ -9,7 +9,7 @@ from numpy import linalg as la
 import scipy.io.matlab as siom
 
 # Import custom Python packages
-from base import Base
+from .base import Base
 from ..utils import parallel as utils_par
 
 
