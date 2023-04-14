@@ -97,7 +97,7 @@ class snapshot_POD:
             self.U = np.load(self.U_filepath)
             self.eps = np.load(self.eps_filepath)
         else:
-            self.fit(data, local_data_foldpath)
+            self.fit(data)
 
     def fit(self, data: np.ndarray) -> None:
         """Calculates the POD modes from the data.
