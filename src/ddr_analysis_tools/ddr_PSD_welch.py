@@ -56,7 +56,6 @@ class PSD_welch:
 
         ax.set_xlabel(xlabel)
         ax.set_ylabel(ylabel)
-        ax.grid()
 
         return ax
 
