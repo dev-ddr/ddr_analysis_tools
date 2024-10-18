@@ -44,7 +44,7 @@ class PSD_welch:
         self.omega, self.data_PSD = scipy.signal.welch(
             x=self.data, fs=self.sampling_rate, **kwargs)
 
-    def plot_PSD(self, xlabel: str = 'HZ', ylabel: str = 'Amplitude', ax: plt.Axes = None, label: str = None, scale: str = 'loglog', **kwargs) -> plt.Axes:
+    def plot_PSD(self, xlabel: str = 'Hz', ylabel: str = 'Amplitude', ax: plt.Axes = None, label: str = None, scale: str = 'loglog', **kwargs) -> plt.Axes:
         if ax is None:
             ax = plt.gca()
 

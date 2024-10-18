@@ -3,7 +3,7 @@ import sys
 import os 
 
 module_name = 'ddr_analysis_tools'
-gihub_url = r'https://github.com/ddrathod121294/' + module_name
+gihub_url = r'https://github.com/dev-ddr/' + module_name
 
 p1 = os.path.join(r'src', module_name)
 sys.path.insert(0, os.path.join(os.getcwd(),p1))

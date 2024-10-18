@@ -92,7 +92,7 @@ class fft_analysis:
 
     def plot_fft(
         self,
-        xlabel: str = "HZ",
+        xlabel: str = "Hz",
         ylabel: str = "Amplitude",
         ax: plt.Axes = None,
         label: str = None,
@@ -116,7 +116,7 @@ class fft_analysis:
 
     def plot_phase(
         self,
-        xlabel: str = "HZ",
+        xlabel: str = "Hz",
         ylabel: str = "Angle $^\circ$",
         ax: plt.Axes = None,
         label: str = None,
